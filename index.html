@@ -1,79 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <title>Лабораторная работа №1 по Internet-технологиям
-    </title> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №2 по Internet-технологиям</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #header {
+            font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+            background-color: #FBA2D4;
+            font-size: 18pt;
+            font-style: normal;
+            text-align: left;
+        }
+    </style>
 </head>
 <body bgcolor="#E6E6FA">
-	<h1>Лабораторная работа №1 по Internet-технологиям</h1>
-	<form>
-		<input type="search" placeholder="Поиск по сайту" autofocus>
-		<input type="submit" value="Найти">
-	</form>
-       <p align="justfily"> Получение <strong>ортофосфатной</strong> кислоты: P<sub>2</sub>O<sub>5</sub>+3H<sub>2</sub>O &rarr; 2H<sub>3</sub>PO<sub>4</sub> </p> 
-       <p> <b>Список распределение групп факультета КИУ по специальностям СП, КСМ и СКС</b></p>
+    <h1 id="header">CSS - «каскадные таблицы стилей»</h1>
+    <p style="background-color: #FBBADF; color: #48036F; font-family: 'Times New Roman', Times, serif; font-size: large">
+	CSS (Cascading Style Sheets - каскадные таблицы стилей) это язык стилей, определяющий внешний вид документа, 
+	написанного с использованием языка разметки. HTML может (неправильно) использоваться для оформления web-сайтов, 
+	но CSS предоставляет гораздо бóльшие возможности и более точен и проработан. Например, CSS позволяет управлять 
+	отображением текста, размерами полей и другими параметрами блочных элементов, фоновыми изображениями, позиционированием элементов и т.д.
+    </p>
 
-	   <ul>
-           <li type="squre"><a> Комп'ютерные системи и сети (КСМ)</a>
-               <ol type="a">
-                   <li><a><em>КИУКИ-19-1</em></a></li>
-                   <li><a><em>КИУКИ-19-2</em></a></li>
-                   <li><a> <em>КИУКИ-19-3</em></a></li>
-                
-               </ol>
-           </li>
-       </ul>
-       <ul>
-        <li type="squre"> <a>Системное программирование (СП)</a>
-            <ol type="a">
-                <li><a><em>КИУКИ-19-4</em></a></li>
-                <li><a><em>КИУКИ-19-5</em></a></li>
-                <li><a><em>КИУКИ-19-6</em></a></li>
-           
-            </ol>
-        </li>
-    </ul>
-    <ul>
-        <li type="squre"><a> Специализированные компьютерные системы (СКС)</a> 
-            <ol type="a">
-                <li><a><em>КИУКИ-19-7</em></a></li>
-                <li><a><em>КИУКИ-19-8</em></a></li>
-                <li><a><em>КИУКИ-19-9</em></a></li>
-            </ol>
-        </li>
-    </ul>
-	    
-        <table bgcolor="#D8BFD8" width="100%" border="5" cellpadding="4" cellspacing="0" >
-            <caption>Таблица с данными о погоде на неделю 15 - 21 ноября</caption>
+    <p><img src="https://www.aposporis.eu/wp-content/uploads/2021/03/htmlcss_400.jpg" style="float: right; width: 200px; height: 150px;" />  
+        CSS — одна из широкого спектра технологий, одобренных консорциумом W3C и получивших общее название «стандарты Web». 
+		В 1990-х годах стала ясна необходимость стандартизировать Web, создать какие-то единые правила, по которым программисты 
+		и веб-дизайнеры проектировали бы сайты. Так появились языки HTML 4.01 и XHTML, и стандарт CSS.
+        В начале 1990-х различные браузеры имели свои стили для отображения веб-страниц. HTML развивался очень быстро и был 
+		способен удовлетворить все существовавшие на тот момент потребности по оформлению информации, поэтому CSS не получил тогда широкого признания.
+        Термин «каскадные таблицы стилей» был предложен Хоконом Ли в 1994 году. Совместно с Бертом Босом он стал развивать CSS.
+        В отличие от многих существовавших на тот момент языков стиля, CSS использует наследование от родителя к потомку, поэтому 
+		разработчик может определить разные стили, основываясь на уже определённых ранее стилях.
+        В середине 1990-х Консорциум Всемирной паутины (W3C) стал проявлять интерес к CSS, и в декабре 1996 года была издана рекомендация CSS1.
+    </p>
 
-            <tr >
-             <th>День</th><th>Температура днем, <sub>o</sub>C</th><th>Температура ночью, <sub>o</sub>C</th><th>Погодные явления</th>
-            </tr>
-            <tr>
-             <td>Понедельник, <em>15 ноя</em></td><td>+4</td><td>-7</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Слегка облачно" /><em>  Слегка облачно</em></td>
-            </tr>
-            <tr>
-             <td>Вторник, <em>16 ноя</em></td><td>+2</td><td>-8</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png" alt="Солнечно" /><em>  Солнечно</em></td>
-            </tr>
-            <tr>
-             <td>Среда, <em>17 ноя</em></td><td>+3</td><td>-7</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Слегка облачно" /><em>  Слегка облачно</em></td>
-            </tr>
-            <tr>
-             <td>Четверг, <em>18 ноя</em></td><td>+3</td><td>-2</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Слегка облачно" /><em>  Слегка облачно</em></td>
-               </tr>
-               <tr>
-                <td>Пятница, <em>19 ноя</em></td><td>+4</td><td>+1</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/snow_s_rain.png" alt="Дождь со снегом" /><em>  Дождь со снегом</em></td>
-               </tr>
-               <tr>
-                <td>Суббота, <em>20 ноя</em></td><td>+5</td><td>+2</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/snow_s_rain.png" alt="Дождь со снегом" /><em>  Дождь со снегом</em></td>
-               </tr>
-			   <tr>
-                <td>Воскресенье, <em>21 ноя</em></td><td>+7</td><td>+2</td><td><img src="https://ssl.gstatic.com/onebox/weather/48/snow_s_rain.png" alt="Дождь со снегом" /><em>  Дождь со снегом</em></td>
-               </tr>
-           </table>
-		   <p>
-		   <a href="LR1dop.html">Страница 2</a>
-			</p>
-		</body>
-     </html>
+   
+    <h4> Появление CSS стало революцией в мире web-дизайна. Конкретные преимущества CSS: </h4>
+    <ul id="list">
+        <li> Более точный контроль над внешним видом страниц;</li>
+        <li> Сложная и проработанная техника дизайна;</li>
+        <li> Управление отображением множества документов с помощью одной таблицы стилей;</li>
+        <li> Различные представления для разных носителей информации (экран, печать, и т. д.);</li>
+      </ul>
+	  <form>
+	  
+  <label>Введите URL:</label>
+  <input type="url"  required/>
+  <br />
+</form>
+     
+       
+        <img src="https://ru.w3docs.com/uploads/media/default/0001/05/6d07a36ebe6d55273b39440f2391f1d7e6d4092a.png" alt="Absolute" style="position: absolute; left: 30px;">
+     <img src="https://m.seonews.ru/upload/medialibrary/1c9/1c98efb3c33d7e3d47659d3b82a3ecd5.png" alt="Relative" style="position: relative; top: 340px;">  
+	
+</body>
+</html>
