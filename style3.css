@@ -1,0 +1,14 @@
+body {
+    display:flex;
+    flex-direction:column;
+}
+
+img {
+    margin: auto;
+}
+
+input, button {
+    width: 100px;
+    margin: 5px auto;
+    padding: 5px;
+}
